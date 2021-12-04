@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/StructureInspectionApp.iml" filepath="$PROJECT_DIR$/.idea/modules/StructureInspectionApp.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/StructureInspectionApp.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/StructureInspectionApp.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/CriminalIntent.iml" filepath="$PROJECT_DIR$/.idea/CriminalIntent.iml" />
     </modules>
   </component>
 </project>
