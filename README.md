@@ -44,7 +44,7 @@
 
 | Экран со списком дефектов | Экран деталей дефекта |
 |--|--|
-|![Иконка приложения](./project_data/screenshots/user/1.png) | ![Завставка](./project_data/screenshots/user/2.png) |
+|![Экран 1](./project_data/screenshots/user/1.png) | ![Экран 2](./project_data/screenshots/user/2.png) |
 
 ## Автор
 
