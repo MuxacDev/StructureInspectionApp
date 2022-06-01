@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">StructureInspectionApp</string>
+    <string name="defect_title_hint">Ввести имя дефекта</string>
+    <string name="defect_title_label">Имя дефекта</string>
+    <string name="defect_details_label">Описание</string>
+    <string name="defect_solved_label">Исправлено</string>
+    <string name="date_picker_title">Дата дефекта</string>
+    <string name="new_defect">Новый дефект</string>
+    <string name="show_subtitle">Показать подзаголовок</string>
+    <string name="hide_subtitle">Спрятать подзаголовок</string>
+    <string name="subtitle_format">%1$d дефекты</string>
+    <string name="defect_suspect_text">Выбрать ответственного инженера</string>
+    <string name="defect_report_text">Отправить отчет о дефекте</string>
+    <string name="defect_report">%1$s!     Дефект обнаружен %2$s. %3$s, и %4$s</string>
+    <string name="defect_report_solved">Кейс исправлен</string>
+    <string name="defect_report_unsolved">Кейс не исправлен</string>
+    <string name="defect_report_no_suspect">Не назначен ответственный</string>
+    <string name="defect_report_suspect">Ответственный %s.</string>
+    <string name="defect_report_subject">Отчет о дефектах конструкций</string>
+    <string name="send_report">Отправить дефект с помощью</string>
+</resources>

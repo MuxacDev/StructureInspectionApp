@@ -9,7 +9,7 @@
     <string name="show_subtitle">Show Subtitle</string>
     <string name="hide_subtitle">Hide Subtitle</string>
     <string name="subtitle_format">%1$d defects</string>
-    <string name="defect_suspect_text">Choose Suspect</string>
+    <string name="defect_suspect_text">Choose Structural Engineer</string>
     <string name="defect_report_text">Send Defect Report</string>
     <string name="defect_report">%1$s!
     The defect was discovered on %2$s. %3$s, and %4$s
