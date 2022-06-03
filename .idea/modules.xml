@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/StructureInspectionApp.iml" filepath="$PROJECT_DIR$/.idea/modules/StructureInspectionApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/StructureInspectionApp.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/StructureInspectionApp.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/StudioProjects-StructureInspectionApp.iml" filepath="$PROJECT_DIR$/.idea/modules/StudioProjects-StructureInspectionApp.iml" group="StructureInspectionApp" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="StructureInspectionApp/app" />
     </modules>
   </component>
 </project>

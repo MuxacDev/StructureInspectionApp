@@ -34,6 +34,7 @@ import java.util.UUID;
 
 import static android.widget.CompoundButton.OnCheckedChangeListener;
 
+
 public class DefectFragment extends Fragment {
 
     private static final String ARG_DEFECT_ID = "defect_id";
@@ -46,6 +47,7 @@ public class DefectFragment extends Fragment {
     private Defect mDefect;
     private File mPhotoFile;
     private EditText mTitleField;
+    private EditText mDescriptionField;
     private Button mDateButton;
     private CheckBox mSolvedCheckbox;
     private Button mReportButton;
@@ -101,6 +103,26 @@ public class DefectFragment extends Fragment {
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {
                 mDefect.setTitle(s.toString());
+                updateDefect();
+            }
+
+            @Override
+            public void afterTextChanged(Editable s) {
+
+            }
+        });
+
+        mDescriptionField = (EditText) v.findViewById(R.id.defect_description);
+        mDescriptionField.setText(mDefect.getDescription());
+        mDescriptionField.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+
+            }
+
+            @Override
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+                mDefect.setDescription(s.toString());
                 updateDefect();
             }
 
