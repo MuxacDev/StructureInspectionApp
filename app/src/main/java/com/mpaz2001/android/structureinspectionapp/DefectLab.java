@@ -102,6 +102,7 @@ public class DefectLab {
         ContentValues values = new ContentValues();
         values.put(UUID, defect.getId().toString());
         values.put(TITLE, defect.getTitle());
+        values.put(DESCRIPTION, defect.getDescription());
         values.put(DATE, defect.getDate().getTime());
         values.put(SOLVED, defect.isSolved() ? 1 : 0);
         values.put(DefectTable.Cols.SUSPECT, defect.getSuspect());

@@ -21,6 +21,7 @@ public class DefectBaseHelper extends SQLiteOpenHelper {
                 " _id integer primary key autoincrement, " +
                 DefectTable.Cols.UUID + ", " +
                 DefectTable.Cols.TITLE + ", " +
+                DefectTable.Cols.DESCRIPTION + ", " +
                 DefectTable.Cols.DATE + ", " +
                 DefectTable.Cols.SOLVED + ", " +
                 DefectTable.Cols.SUSPECT +

@@ -7,6 +7,7 @@ public class Defect {
 
     private final UUID mId;
     private String mTitle;
+    private String mDescription;
     private Date mDate;
     private boolean mSolved;
     private String mSuspect;
@@ -30,6 +31,14 @@ public class Defect {
 
     public void setTitle(String title) {
         mTitle = title;
+    }
+
+    public String getDescription() {
+        return mDescription;
+    }
+
+    public void setDescription(String description) {
+        mDescription = description;
     }
 
     public Date getDate() {
